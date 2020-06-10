@@ -21,6 +21,12 @@ wwv_flow_api.create_menu_option(
 ,p_link=>'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.'
 ,p_page_id=>1
 );
+wwv_flow_api.create_menu_option(
+ p_id=>wwv_flow_api.id(23168014954099771923)
+,p_short_name=>'Demo Page'
+,p_link=>'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>2
+);
 wwv_flow_api.component_end;
 end;
 /
